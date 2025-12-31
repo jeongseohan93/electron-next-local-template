@@ -1,0 +1,11 @@
+{
+  "name": "electron-next-template",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:desktop": "npm --workspace apps/desktop run dev",
+    "dev:ui": "npm --workspace apps/ui run dev"
+  }
+}
